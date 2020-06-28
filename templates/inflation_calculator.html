@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta charset="utf-8">
+		
+		<title>Inflation and Money</title>
+		<style type="text/css">
+			header{
+				text-align: center;
+				background-color: lightblue;
+				font-size: large
+			}
+			main{
+				background-color: salmon
+			}
+			input{
+				background-color: black;
+				color: white
+			}
+			footer{
+				background-color: lightblue
+			}
+		</style>
+	
+	</head>
+	<body>
+		<header>
+			<br/>
+			<br/>
+			<big><b>FUTURE CALCULATOR: INFLATION | ITEM PRICE | BUYING POWER </b></big>
+			<br/>
+			<br/>
+		</header>
+		<main>
+			<h2>Inflation Rate Calculator</h2>
+			Which year in the future do you want to forecast:
+			<form name = "inflation" action = "/" method="post">
+				<br/>
+				<input type="text" name = "t1">
+				<input type="submit" value = "Enter">
+			</form>			
+			<div><br/>Inflation rate{{year}}: {{rate_mate2}}</div>
+			<h2>Item Price Calculator</h2>
+			Which year in the future do you want to forecast:
+			<form name = "price" action = "/" method = "post">
+				<br/>
+				<input type="text" name = "t2">
+				<input type="submit" value = "Enter">
+			</form>			
+			<div><br/>$10 item{{year2}}: {{price_mate}}</div>
+			<h2>Buying Power Calculator</h2>
+			Which year in the future do you want to forecast:
+			<form name="worth" action = "/" method = "post">
+				<br/>
+				<input type="text" name = "t3">
+				<input type="submit" value = "Enter">
+			</form>		
+			<div><br/>$10 worth{{year3}}: {{worth_mate}}</div>
+			<br/>
+
+		</main>
+		<br/>
+		<footer>
+			<br/>
+			<div> - Arnav Khinvasara (created 2020)</div>
+			<br/>
+
+		</footer>
+
+	</body>
+
+</html>
